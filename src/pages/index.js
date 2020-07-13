@@ -14,7 +14,35 @@ const Home = (props) => {
       <Helmet>
         <meta
           name="description"
-          content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
+          content="Technology driven company built around teams who build products to enhance communities."
+        />
+        <html lang="en" />
+        {/* <!-- Open Graph / Facebook --> */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://theblacklightgroup.org/" />
+        <meta property="og:title" content="The Blacklight Group LLC" />
+        <meta
+          property="og:description"
+          content="Technology driven company built around teams who build products to enhance communities."
+        />
+        <meta
+          property="og:image"
+          content="https://www.theblacklightgroup.org/static/Group-of-Black%20Millennials-at-Office-22a3b5bb575bf58a84e1ed349e7cc621.png"
+        />
+        {/* <!-- Twitter --> */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://theblacklightgroup.org/"
+        />
+        <meta property="twitter:title" content="The Blacklight Group LLC" />
+        <meta
+          property="twitter:description"
+          content="Technology driven company built around teams who build products to enhance communities."
+        />
+        <meta
+          property="twitter:image"
+          content="https://www.theblacklightgroup.org/static/Group-of-Black%20Millennials-at-Office-22a3b5bb575bf58a84e1ed349e7cc621.png"
         />
       </Helmet>
       <div className="intro pb-4">
@@ -57,14 +85,14 @@ const Home = (props) => {
           <div className="col-12">
             <h2 className="title-3 text-dark mb-3">Products Developed By Us</h2>
           </div>
-          <div className="col-6 col-md-4 mb-1">
+          <div className="col-12 col-md-4 mb-1">
             <img
               src={require("../images/Black-Woman-Phone.png")}
               height="350"
               width="350"
             />
           </div>
-          <div className="col-6 col-md-4 mb-1">
+          <div className="col-12 col-md-4 mb-1">
             <div className="card service service-teaser">
               <div className="card-content">
                 <h2>Penny Bank</h2>
