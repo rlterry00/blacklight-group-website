@@ -1,9 +1,9 @@
-import React from 'react';
-import { graphql, withPrefix, Link } from 'gatsby';
-import Helmet from 'react-helmet';
-import SEO from '../components/SEO';
-import Layout from '../layouts/index';
-import Call from '../components/Call';
+import React from "react";
+import { graphql, withPrefix, Link } from "gatsby";
+import Helmet from "react-helmet";
+import SEO from "../components/SEO";
+import Layout from "../layouts/index";
+import Call from "../components/Call";
 
 const Home = (props) => {
   const markdown = props.data.allMarkdownRemark.edges;
@@ -52,7 +52,52 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-
+      <div className="container pt-8 pt-md-10">
+        <div className="row justify-content-start">
+          <div className="col-12">
+            <h2 className="title-3 text-dark mb-3">Products Developed By Us</h2>
+          </div>
+          <div className="col-6 col-md-4 mb-1">
+            <img
+              src={require("../images/Black-Woman-Phone.png")}
+              height="350"
+              width="350"
+            />
+          </div>
+          <div className="col-6 col-md-4 mb-1">
+            <div className="card service service-teaser">
+              <div className="card-content">
+                <h2>Penny Bank</h2>
+                <p>
+                  Family Productivity and financial literacy mobile application.
+                  Click to learn more
+                  <a href="https://pennybank.online"> Pennybank.Online</a>
+                </p>
+                <img
+                  src={require("../images/homescreen.png")}
+                  height="auto"
+                  width="150"
+                />
+                <img
+                  src={require("../images/lovetap.png")}
+                  height="auto"
+                  width="150"
+                />
+                <img
+                  src={require("../images/responsibility.png")}
+                  height="auto"
+                  width="150"
+                />
+                <img
+                  src={require("../images/goals.png")}
+                  height="auto"
+                  width="150"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="container pt-8 pt-md-10">
         <div className="row justify-content-start">
           <div className="col-12">
