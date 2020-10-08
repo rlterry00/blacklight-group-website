@@ -48,7 +48,7 @@ const Home = (props) => {
       <div className="intro pb-4">
         <div className="container">
           <h1>The Blacklight Group LLC</h1>
-          <p>When they don't hire you #hireyourself</p>
+          <p>#hireyourself</p>
         </div>
       </div>
 
@@ -63,19 +63,23 @@ const Home = (props) => {
               Our Culture
             </h2>
             <img
-              src={require("../images/Enlight11.jpg")}
+              src={require("../images/undraw_hang_out_h9ud.svg")}
               height="300"
               width="350"
             />
             <p>
+              What is the significance of the blacklight to us? It is a metaphor
+              of the company's thought process of solving problems that may not 
+              have been apparent to the naked eye.  Our products are centered 
+              around community enhancement through technology.
               The Blacklight Group is a place where professionals come to learn
               new skill sets and take leadership roles in existing skill sets
               where the opportunity may not present its self else where. We
               check our egos at the door as team work is a major part of the
               culture. Each product is built around a "Blacklight Team" which
-              collaborates with other teams internally or provides a service to
-              clients externally. Our team members are no longer the token of
-              diversity at The Blacklight Group, we are diversity.
+              collaborates with other teams internally and externally. The Blacklight Group 
+              is mananged by a diverse set of individuals who come together by the 
+              mutual passions of what we do.
             </p>
           </div>
         </div>
