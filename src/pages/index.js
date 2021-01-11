@@ -9,7 +9,7 @@ const Home = (props) => {
   const markdown = props.data.allMarkdownRemark.edges;
   const json = props.data.allFeaturesJson.edges;
   return (
-    <Layout bodyClass="page-home">
+    <Layout>
       <SEO title="Home" />
       <Helmet>
         <meta
@@ -45,17 +45,18 @@ const Home = (props) => {
           content="https://www.theblacklightgroup.org/static/Group-of-Black%20Millennials-at-Office-22a3b5bb575bf58a84e1ed349e7cc621.png"
         />
       </Helmet>
-      <div className="intro pb-4">
-        <div className="container">
-          <h1>The Blacklight Group LLC</h1>
-          <p>#hireyourself</p>
+      <div className="header">
+        <div className="intro pb-4">
+          <div className="container">
+            <h1>The Blacklight Group LLC</h1>
+            <p>#CreateTheExperience</p>
+          </div>
+        </div>
+
+        <div className="container pt-2">
+          <Call button />
         </div>
       </div>
-
-      <div className="container pt-2">
-        <Call button />
-      </div>
-
       <div className="container pt-8 pt-md-10">
         <div className="row justify-content-start">
           <div className="col-12 text-center">
@@ -69,17 +70,17 @@ const Home = (props) => {
             />
             <p>
               What is the significance of the blacklight to us? It is a metaphor
-              of the company's thought process of solving problems that may not 
-              have been apparent to the naked eye.  Our products are centered 
-              around community enhancement through technology.
-              The Blacklight Group is a place where professionals come to learn
-              new skill sets and take leadership roles in existing skill sets
-              where the opportunity may not present its self else where. We
-              check our egos at the door as team work is a major part of the
-              culture. Each product is built around a "Blacklight Team" which
-              collaborates with other teams internally and externally. The Blacklight Group 
-              is mananged by a diverse set of individuals who come together by the 
-              mutual passions of what we do.
+              of the company's thought process of solving problems that may not
+              have been apparent to the naked eye. Our products are centered
+              around community enhancement through technology. The Blacklight
+              Group is a place where professionals come to learn new skill sets
+              and take leadership roles in existing skill sets where the
+              opportunity may not present its self else where. We check our egos
+              at the door as team work is a major part of the culture. Each
+              product is built around a "Blacklight Team" which collaborates
+              with other teams internally and externally. The Blacklight Group
+              is mananged by a diverse set of individuals who come together by
+              the mutual passions of what we do.
             </p>
           </div>
         </div>

@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('/Users/ramonterry/Desktop/blacklight-group-website/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/alfnewton/Desktop/blacklight-group-website/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/ramonterry/Desktop/blacklight-group-website/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('/Users/alfnewton/Desktop/blacklight-group-website/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-XXX-1","head":false},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
