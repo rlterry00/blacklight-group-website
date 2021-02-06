@@ -9,7 +9,7 @@ const Home = (props) => {
   const markdown = props.data.allMarkdownRemark.edges;
   const json = props.data.allFeaturesJson.edges;
   return (
-    <Layout>
+    <Layout bodyClass="page-home">
       <SEO title="Home" />
       <Helmet>
         <meta
@@ -45,7 +45,7 @@ const Home = (props) => {
           content="https://www.theblacklightgroup.org/static/Group-of-Black%20Millennials-at-Office-22a3b5bb575bf58a84e1ed349e7cc621.png"
         />
       </Helmet>
-      <div className="header">
+      
         <div className="intro pb-4">
           <div className="container">
             <h1>The Blacklight Group LLC</h1>
@@ -56,7 +56,7 @@ const Home = (props) => {
         <div className="container pt-2">
           <Call button />
         </div>
-      </div>
+      
       <div className="container pt-8 pt-md-10">
         <div className="row justify-content-start">
           <div className="col-12 text-center">
