@@ -3,7 +3,7 @@ path: '/team/ramonterry'
 title: 'Ramon R.L. Terry'
 date: 2018-11-19T10:47:58+10:00
 draft: false
-image: '/team/ramonport.jpg'
+image: '/team/2730921.jpg'
 jobtitle: 'Lead Engineer'
 email: 'rlterry@theblacklightgroup.org'
 linkedinurl: 'https://www.linkedin.com/in/ramon-terry-3b9168134/'

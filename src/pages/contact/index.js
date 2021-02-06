@@ -16,8 +16,8 @@ const Contact = (props) => (
         <div className="row">
           <div className="col-12">
             <img
-              src={require("../../images/Black-Man-Phone.png")}
-              height="350"
+              src={require("../../images/20943546.jpg")}
+              height="250"
               width="350"
             />
           </div>

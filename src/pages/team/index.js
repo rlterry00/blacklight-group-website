@@ -26,7 +26,7 @@ const Team = (props) => {
         <div className="row">
           <div className="col-12">
             <img
-              src={require("../../images/iconoutline.png")}
+              src={require("../../images/pgicon.png")}
               height="150"
               width="150"
             />

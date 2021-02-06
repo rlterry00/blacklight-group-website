@@ -64,7 +64,7 @@ const Home = (props) => {
               Our Culture
             </h2>
             <img
-              src={require("../images/undraw_hang_out_h9ud.svg")}
+              src={require("../images/20943443.jpg")}
               height="300"
               width="350"
             />
@@ -92,8 +92,8 @@ const Home = (props) => {
           </div>
           <div className="col-12 col-md-4 mb-1">
             <img
-              src={require("../images/Black-Woman-Phone.png")}
-              height="350"
+              src={require("../images/20943492.jpg")}
+              height="250"
               width="350"
             />
           </div>

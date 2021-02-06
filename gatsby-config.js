@@ -14,10 +14,10 @@ module.exports = {
       //   name: 'Services',
       //   link: '/services',
       // },
-      {
-        name: "Blacklight Teams",
-        link: "/team",
-      },
+      // {
+      //   name: "Blacklight Teams",
+      //   link: "/team",
+      // },
       // {
       //   name: 'Testimonials',
       //   link: '/testimonials',
