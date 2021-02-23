@@ -27,7 +27,7 @@ const Home = (props) => {
         />
         <meta
           property="og:image"
-          content="https://www.theblacklightgroup.org/static/Group-of-Black%20Millennials-at-Office-22a3b5bb575bf58a84e1ed349e7cc621.png"
+          content="http://www.theblacklightgroup.org/static/lightpeople-634cd56579b190189376cdc0bf241ec2.png"
         />
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
@@ -42,13 +42,15 @@ const Home = (props) => {
         />
         <meta
           property="twitter:image"
-          content="https://www.theblacklightgroup.org/static/Group-of-Black%20Millennials-at-Office-22a3b5bb575bf58a84e1ed349e7cc621.png"
+          content="http://www.theblacklightgroup.org/static/lightpeople-634cd56579b190189376cdc0bf241ec2.png"
         />
       </Helmet>
       
         <div className="intro pb-4">
           <div className="container">
-            <h1>The Blacklight Group LLC</h1>
+            <h1>The</h1>
+            <h1>Blacklight</h1>
+            <h1>Group LLC</h1>
             <p>#CreateTheExperience</p>
           </div>
         </div>

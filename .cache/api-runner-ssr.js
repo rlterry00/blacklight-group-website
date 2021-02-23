@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/alfnewton/Desktop/blacklight-group-website/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-XXX-1","head":false},
+      options: {"plugins":[],"trackingId":"UA-XXX-1","head":false,"anonymize":false,"respectDNT":false,"exclude":[],"pageTransitionDelay":0},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
