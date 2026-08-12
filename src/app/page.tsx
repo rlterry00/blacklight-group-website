@@ -14,7 +14,7 @@ export default function HomePage() {
   return (
     <>
       <section className="relative overflow-hidden pt-[5.5rem]">
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_15%_20%,rgba(107,47,214,0.08),transparent_42%),radial-gradient(circle_at_85%_10%,rgba(107,47,214,0.05),transparent_35%)]" />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_12%_18%,rgba(107,47,214,0.16),transparent_40%),radial-gradient(circle_at_88%_12%,rgba(107,47,214,0.14),transparent_36%),linear-gradient(180deg,#f7f5f2_0%,#f3f0fb_48%,#f7f5f2_100%)]" />
         <div className="container-site grid items-center gap-10 py-14 md:grid-cols-[1.05fr_0.95fr] md:gap-12 md:py-20 lg:py-24">
           <div>
             <p className="reveal mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-muted">
@@ -37,17 +37,18 @@ export default function HomePage() {
           </div>
 
           <div className="relative">
-            <div className="hero-glow absolute left-1/2 top-1/2 h-56 w-56 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(107,47,214,0.45),transparent_70%)] blur-2xl" />
-            <div className="hero-media relative mx-auto aspect-[4/5] w-full max-w-[460px] overflow-hidden rounded-[16px]">
+            <div className="hero-glow absolute left-1/2 top-[42%] h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(107,47,214,0.55),rgba(107,47,214,0.18)_45%,transparent_70%)] blur-3xl" />
+            <div className="hero-media relative mx-auto aspect-[4/5] w-full max-w-[460px] overflow-hidden rounded-[16px] bg-[#111]">
               <Image
-                src="/images/hanging-bulbs.jpg"
-                alt="Hanging glass light bulbs with a glowing filament"
+                src="/images/lightbulb.jpg"
+                alt="Light bulb illuminated as a symbol of ideas"
                 fill
                 priority
                 sizes="(max-width: 768px) 90vw, 460px"
-                className="object-cover"
+                className="object-cover object-center"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_42%,rgba(107,47,214,0.35),transparent_55%)] mix-blend-screen" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-black/10" />
             </div>
           </div>
         </div>

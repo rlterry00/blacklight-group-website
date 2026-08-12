@@ -9,8 +9,7 @@ type ButtonProps = {
 };
 
 const variants = {
-  solid:
-    "bg-ink text-white hover:bg-[#222] border border-ink",
+  solid: "bg-ink text-white hover:bg-[#222] border border-ink",
   ghost:
     "bg-transparent text-ink border border-ink hover:bg-ink hover:text-white",
   "ghost-light":
